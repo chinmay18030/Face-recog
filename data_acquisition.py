@@ -6,7 +6,7 @@ cap = cv2.VideoCapture(0)
 start = False
 count = 200
 num_samples = 300
-IMG_CLASS_PATH = "Chinmay Recognition/image_Data/main"
+IMG_CLASS_PATH = LOCATION
 
 while True:
     ret, frame = cap.read()
